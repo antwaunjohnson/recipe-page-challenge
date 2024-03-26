@@ -3,7 +3,8 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens: {
-      sm: "375px",
+      xs: "375px",
+      sm: "480px",
       md: "768px",
       lg: "976",
       xl: "1440px"
@@ -16,7 +17,7 @@ module.exports = {
         eggshell: 'hsl(30, 54%, 90%)',
         lightGray: 'hsl(30, 18%, 87%)',
         wengeBrown: 'hsl(30, 10%, 34%)',
-        darkCharcoal: 'hsl(24, 5%, 18%)'
+        darkCharcoal: 'hsl(24, 5%, 18%)',
       },
       fontFamily: {
         sans: ["Outfit", "sans-serif"],
